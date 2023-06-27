@@ -336,6 +336,14 @@ export default function Home() {
             </Card>
           </TabsContent>
         </Tabs>
+
+        <a
+          href="https://github.com/jarrodwatts/wallets"
+          target="_blank"
+          className="text-md text-muted-foreground mt-8 underline semibold"
+        >
+          View the source code on GitHub.
+        </a>
       </div>
     </main>
   );
