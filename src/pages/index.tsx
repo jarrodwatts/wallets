@@ -10,7 +10,6 @@ import {
   localWallet,
   smartWallet,
   magicLink,
-  paperWallet,
   ConnectWallet,
   metamaskWallet,
   coinbaseWallet,
@@ -156,9 +155,6 @@ export default function Home() {
                 supportedWallets={[
                   magicLink({
                     apiKey: "pk_live_151F12DF754A79CE",
-                  }),
-                  paperWallet({
-                    clientId: "02c6277e-c2b2-4d65-a80d-c1a420a376a4",
                   }),
                 ]}
               >
